@@ -1,0 +1,113 @@
+file locations:
+    jabref:
+        system folder: 'architectures/JabRef_architecture'
+        raw data: 'Data/jabref/rawdata.csv'
+        tmp data: 'Data/jabref/tmp'
+        single setting preprocessing: 'Data/jabref/single_prep.csv'
+        preprocess comparisons: 'Data/jabref/prep_comparisons.csv'
+        data size percentage: 'Data/jabref/size_percentage.csv'
+        data size abs num: 'Data/jabref/size_abs.csv'
+    prom:
+        system folder: 'architectures/ProM_architecture'
+        raw data: 'Data/prom/rawdata.csv'
+        tmp data: 'Data/prom/tmp'
+        single setting preprocessing: 'Data/prom/single_prep.csv'
+        preprocess comparisons: 'Data/prom/prep_comparisons.csv'
+        data size percentage: 'Data/prom/size_percentage.csv'
+        data size abs num: 'Data/prom/size_abs.csv'
+    team:
+        system folder: 'architectures/TEAMMATES_architecture'
+        raw data: 'Data/team/rawdata.csv'
+        tmp data: 'Data/team/tmp'
+        single setting preprocessing: 'Data/team/single_prep.csv'
+        preprocess comparisons: 'Data/team/prep_comparisons.csv'
+        data size percentage: 'Data/team/size_percentage.csv'
+        data size abs num: 'Data/team/size_abs.csv'
+    ant:
+        system folder: 'architectures/Ant_architecture'
+        raw data: 'Data/ant/rawdata.csv'
+        tmp data: 'Data/ant/tmp'
+        single setting preprocessing: 'Data/ant/single_prep.csv'
+        preprocess comparisons: 'Data/ant/prep_comparisons.csv'
+        data size percentage: 'Data/ant/size_percentage.csv'
+        data size abs num: 'Data/ant/size_abs.csv'
+    lucene:
+        system folder: 'architectures/Lucene_architecture'
+        raw data: 'Data/lucene/rawdata.csv'
+        tmp data: 'Data/lucene/tmp'
+        single setting preprocessing: 'Data/lucene/single_prep.csv'
+        preprocess comparisons: 'Data/lucene/prep_comparisons.csv'
+        data size percentage: 'Data/lucene/size_percentage.csv'
+        data size abs num: 'Data/lucene/size_abs.csv'
+    sweethome:
+        system folder: 'architectures/Sweethome3D_architecture'
+        raw data: 'Data/sweethome/rawdata.csv'
+        tmp data: 'Data/sweethome/tmp'
+        single setting preprocessing: 'Data/sweethome/single_prep.csv'
+        preprocess comparisons: 'Data/sweethome/prep_comparisons.csv'
+        data size percentage: 'Data/sweethome/size_percentage.csv'
+        data size abs num: 'Data/sweethome/size_abs.csv'
+        
+preprocess settings list:
+    0:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'stem'],
+            ['pac', 'tow', 'jk']
+        ]
+    1:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'stem'],
+            ['pac',  'tow', 'jk'],
+            ['com', 'tow', 'jk', 'lc', 'sw', 'stem']
+        ]
+    2: 
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+            ['pac', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+            ['pm', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+            ['pv', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+            ['com', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+            ['c', 'tow', 'jk', 'scw','lc', 'sw', 'stem']
+        ]
+
+    3: 
+        [
+            ['pac', 'tow', 'jk'],
+            ['lib', 'tow', 'scw', 'jk', 'lc', 'stem'],
+            ['pm', 'tow', 'scw', 'jk', 'lc', 'sw']
+        ]
+#    4: 
+#        [ 
+#            ['lib', 'tow', 'scw', 'jk', 'lc', 'stem'],
+#            ['pac', 'tow', 'jk',],
+#            ['c', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['pm', 'tow', 'scw', 'jk', 'lc', 'sw', 'stem'],
+#            ['pv', 'tow', 'jk', 'scw','lc', 'sw', 'stem']
+#        ]
+#    5: 
+#        [
+#            ['lib', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['pac', 'tow', 'jk'],
+#            ['pm', 'tow', 'jk', 'scw','lc', 'sw'],
+#            ['pv', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['com', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['c', 'tow', 'jk', 'scw','lc', 'sw', 'stem']
+#        ]
+#    6: 
+#        [
+#            ['lib', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['pac', 'tow', 'jk'],
+#            ['pm', 'tow', 'jk', 'scw','lc', 'sw'],
+#            ['pv', 'tow', 'jk', 'scw','lc', 'sw'],
+#            ['com', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['c', 'tow', 'jk', 'scw','lc', 'sw']
+#        ]
+#    7: 
+#        [
+#            ['lib', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['pac', 'tow', 'jk'],
+#            ['pm', 'tow', 'jk', 'scw','lc' ],
+#            ['pv', 'tow', 'jk', 'scw','lc' ],
+#            ['com', 'tow', 'jk', 'scw','lc', 'sw', 'stem'],
+#            ['c', 'tow', 'jk', 'scw','lc']
+#        ]

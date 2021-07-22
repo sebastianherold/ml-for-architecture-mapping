@@ -1,0 +1,86 @@
+file locations:
+    jabref:
+        system folder: 'architectures/JabRef_architecture'
+        raw data: 'Data/jabref/rawdata.csv'
+        tmp data: 'Data/jabref/tmp.csv'
+        single setting preprocessing: 'Data/jabref/single_prep.csv'
+        preprocess comparisons: 'Data/jabref/prep_comparisons.csv'
+        data size percentage: 'Data/jabref/size_percentage.csv'
+        data size abs num: 'Data/jabref/size_abs.csv'
+    prom:
+        system folder: 'architectures/ProM_architecture'
+        raw data: 'Data/prom/rawdata.csv'
+        tmp data: 'Data/prom/tmp.csv'
+        single setting preprocessing: 'Data/prom/single_prep.csv'
+        preprocess comparisons: 'Data/prom/prep_comparisons.csv'
+        data size percentage: 'Data/prom/size_percentage.csv'
+        data size abs num: 'Data/prom/size_abs.csv'
+    team:
+        system folder: 'architectures/TEAMMATES_architecture'
+        raw data: 'Data/team/rawdata.csv'
+        tmp data: 'Data/team/tmp.csv'
+        single setting preprocessing: 'Data/team/single_prep.csv'
+        preprocess comparisons: 'Data/team/prep_comparisons.csv'
+        data size percentage: 'Data/team/size_percentage.csv'
+        data size abs num: 'Data/team/size_abs.csv'
+    ant:
+        system folder: 'architectures/Ant_architecture'
+        raw data: 'Data/ant/rawdata.csv'
+        tmp data: 'Data/ant/tmp.csv'
+        single setting preprocessing: 'Data/ant/single_prep.csv'
+        preprocess comparisons: 'Data/ant/prep_comparisons.csv'
+        data size percentage: 'Data/ant/size_percentage.csv'
+        data size abs num: 'Data/ant/size_abs.csv'
+    lucene:
+        system folder: 'architectures/Lucene_architecture'
+        raw data: 'Data/lucene/rawdata.csv'
+        tmp data: 'Data/lucene/tmp.csv'
+        single setting preprocessing: 'Data/lucene/single_prep.csv'
+        preprocess comparisons: 'Data/lucene/prep_comparisons.csv'
+        data size percentage: 'Data/lucene/size_percentage.csv'
+        data size abs num: 'Data/lucene/size_abs.csv'
+    sweethome:
+        system folder: 'architectures/Sweethome3D_architecture'
+        raw data: 'Data/sweethome/rawdata.csv'
+        tmp data: 'Data/sweethome/tmp.csv'
+        single setting preprocessing: 'Data/sweethome/single_prep.csv'
+        preprocess comparisons: 'Data/sweethome/prep_comparisons.csv'
+        data size percentage: 'Data/sweethome/size_percentage.csv'
+        data size abs num: 'Data/sweethome/size_abs.csv'
+        
+preprocess settings list:
+    s0:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc','sw']
+        ]
+    s1:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['c', 'tow', 'jk', 'scw','lc', 'sw']
+        ]
+    s2:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['c', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['pm', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['pv', 'tow', 'jk', 'scw','lc', 'sw']
+        ] 
+    s3:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc','sw'],
+            ['com', 'tow', 'sw', 'stem']
+        ]
+    s4:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['c', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['com', 'tow', 'sw', 'stem']
+        ]
+    s5:
+        [
+            ['lib', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['c', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['pm', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['pv', 'tow', 'jk', 'scw','lc', 'sw'],
+            ['com', 'tow', 'sw', 'stem']
+        ] 
