@@ -5,7 +5,7 @@ The replication package requires Python 3.8.5.
 To start working in the environment, install required packages by running:   
 `pip install -r requirements.txt`  
 
-The main entry point for is a Jupyter Notbook located at ./impl/jupyter/paper_experiments.ipynb - although the code of the notebook can easily executed stand-alone, the use of Jupyter Notebook is highly encouraged.
+The main entry point for is a Jupyter Notbook located at ./jupyter/paper_experiments.ipynb - although the code of the notebook can easily executed stand-alone, the use of Jupyter Notebook is highly encouraged.
 
 ---
 
